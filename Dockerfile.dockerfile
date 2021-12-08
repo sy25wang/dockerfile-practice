@@ -2,7 +2,7 @@
 
 FROM jupyter/scipy-notebook
 
-USER root
+RUN apt-get update --yes
 
-RUN conda install -c conda-forge --quiet -y \
-    'docopt=0.6.*'\
+RUN conda install --quiet --yes \
+	'docopt=0.6.*'
