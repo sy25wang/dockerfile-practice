@@ -6,3 +6,4 @@ USER root
 
 RUN conda install -c conda-forge --quiet -y \
     'docopt=0.6.*'
+    
