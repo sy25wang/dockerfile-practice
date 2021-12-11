@@ -1,9 +1,9 @@
+# DSCI 522 Individual Assignment 4
 # author: Shi Yan Wang
 
 FROM jupyter/scipy-notebook
 
-USER root
-
-RUN conda install -c conda-forge --quiet --yes \
-    'docopt=0.6.*'
+RUN conda install --quiet -y -c conda-forge \
+    "numpy=1.21.*"
+    
     
