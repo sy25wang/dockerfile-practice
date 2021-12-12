@@ -4,6 +4,6 @@
 FROM jupyter/scipy-notebook
 
 RUN conda install --quiet -y -c conda-forge \
-    "numpy=1.21.*"
+    "numpy=1.20.*"
     
     
